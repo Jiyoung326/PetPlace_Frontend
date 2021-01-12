@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209368535829",
+    "project_id": "pp-user-project",
+    "storage_bucket": "pp-user-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209368535829:android:1ec3ceac625c43a87ccf1c",
+        "android_client_info": {
+          "package_name": "kr.or.womanup.nambu.myojyeong.petplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209368535829-kpdf33bb69fbvpadbg456dr8hf6g51d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYeUZHDu44h1NoL4-qwMcPq8tH7Z_FvMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209368535829-kpdf33bb69fbvpadbg456dr8hf6g51d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

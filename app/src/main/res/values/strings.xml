@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">펫플레이스</string>
+    <string name="connection_string">DefaultEndpointsProtocol=https;AccountName=yourkey;EndpointSuffix=core.windows.net</string>
+    <string name="container_name">photoboard</string>
+</resources>

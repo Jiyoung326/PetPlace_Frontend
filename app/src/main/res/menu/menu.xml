@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_menu"
+        android:icon="@drawable/home_1"
+        android:title="홈"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/board_menu"
+        android:icon="@drawable/photo_gallery"
+        android:title="사진"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mypage_menu"
+        android:icon="@drawable/mypage_1"
+        android:title="마이페이지"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchFacilityActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgview_category"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/find_hospital" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_facilities"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:contextClickable="false" />
+    </LinearLayout>
+</LinearLayout>

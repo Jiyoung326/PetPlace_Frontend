@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/where" />
+
+    <ImageButton
+        android:id="@+id/btn_hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/theme_y"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hospital_1" />
+
+    <ImageButton
+        android:id="@+id/btn_pharmacy"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/theme_y"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/pharmacy_1" />
+
+    <ImageButton
+        android:id="@+id/btn_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/theme_y"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/activity_1" />
+
+</LinearLayout>
