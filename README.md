@@ -1,4 +1,7 @@
-#### Android + Django + MySQL + AzureCloud를 이용한 프로젝트입니다.
+프로젝트 기간: 2020/12/14-2021/01/05 (16일) <br>
+주제: 서울시 반려동물 시설 정보 제공 및 커뮤니티 앱 <br>
+참여 인원: 2명 <br>
+활용 기술: Android Studio+ Django + MySQL + AzureCloud
 
 <br>
 <hr/>
